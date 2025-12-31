@@ -1,0 +1,10 @@
+name = "DocTest3"
+version = "0.1.0"
+defaultTargets = ["doctest3"]
+
+[[lean_lib]]
+name = "DocTest3"
+
+[[lean_exe]]
+name = "doctest3"
+root = "Main"
