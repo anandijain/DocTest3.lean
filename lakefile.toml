@@ -1,6 +1,7 @@
 name = "DocTest3"
 version = "0.1.0"
-defaultTargets = ["doctest3"]
+# Build the library by default so docgen can attach the docs facet.
+defaultTargets = ["DocTest3"]
 
 [[require]]
 name = "doc-gen4"
