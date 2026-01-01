@@ -3,8 +3,8 @@ version = "0.1.0"
 defaultTargets = ["doctest3"]
 
 [[require]]
-scope = "leanprover"
 name = "doc-gen4"
+git = "https://github.com/leanprover/doc-gen4"
 rev = "main"
 
 [[lean_lib]]

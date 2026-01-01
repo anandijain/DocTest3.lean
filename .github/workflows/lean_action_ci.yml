@@ -18,5 +18,11 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - uses: leanprover/lean-action@v1
+        with:
+          auto-config: false
+      - name: Lake update
+        run: lake update
+      - name: Lake build
+        run: lake build
       - uses: leanprover-community/docgen-action@v1
       - uses: anandijain/lean-inspect-action@v1
