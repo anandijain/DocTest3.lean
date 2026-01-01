@@ -22,3 +22,7 @@ jobs:
       - uses: anandijain/lean-inspect-action@v1
         with:
           doc-root: docs/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/
+      - uses: actions/deploy-pages@v4
