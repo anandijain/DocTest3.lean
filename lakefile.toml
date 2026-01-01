@@ -2,6 +2,11 @@ name = "DocTest3"
 version = "0.1.0"
 defaultTargets = ["doctest3"]
 
+[[require]]
+scope = "leanprover"
+name = "doc-gen4"
+rev = "main"
+
 [[lean_lib]]
 name = "DocTest3"
 
