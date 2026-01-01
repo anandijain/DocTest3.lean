@@ -4,7 +4,7 @@
  [{"url": "https://github.com/leanprover/doc-gen4",
    "type": "git",
    "subDir": null,
-   "scope": "leanprover",
+   "scope": "",
    "rev": "05bb84181739ecc0897184a3e2906241267bcdfd",
    "name": "«doc-gen4»",
    "manifestFile": "lake-manifest.json",
