@@ -21,4 +21,4 @@ jobs:
       - uses: leanprover-community/docgen-action@v1
       - uses: anandijain/lean-inspect-action@v1
         with:
-          doc-root: .lake/build/doc
+          doc-root: docs/
