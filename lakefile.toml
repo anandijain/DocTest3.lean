@@ -9,3 +9,7 @@ rev = "main"
 
 [[lean_lib]]
 name = "DocTest3"
+
+[[lean_exe]]
+name = "doctest3"
+root = "Main"
